@@ -14,10 +14,18 @@ body {
     align-items: center;
     /* Text styles */
     text-align: center;
+    color: #ffff;
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/eye-for-ebony-415494-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero h1 {
     /* Text styles */
+    color: #ffff;
     font-size: 6em;
     /* Margins */
     margin-top: 0;
@@ -26,7 +34,16 @@ body {
 
 .hero p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
+
+.bold {
+    color: #26C485;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* CTA BUTTON */
 
 .enter-btn {
     display: inline-block;
@@ -36,6 +53,7 @@ body {
     text-decoration: none;
     /* Margins */
     margin: 2px 0;
+    margin-top: 1.5em;
     /* Borders */
     border: solid 1px transparent;
     border-radius: 4px;
@@ -44,7 +62,7 @@ body {
     padding: 1em 3em;
     /* Colors */
     color: #ffffff;
-    background-color: #F25D26;
+    background-color: #26C485;
 }
 
 .enter-btn:active {
@@ -53,7 +71,7 @@ body {
 }
 
 .enter-btn:hover {
-    color: #F25D26;
+    color: #26C485;
     border-color: currentColor;
     background-color: white;
 }
