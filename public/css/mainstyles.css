@@ -64,3 +64,10 @@ nav ul li {
     font-size: 50px;
     color: #26C485;
 }
+
+/* logo image */
+.h-logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
