@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family= Montserrat');
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Text styles */
+    text-align: center;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 6em;
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+
+.hero p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.enter-btn {
+    display: inline-block;
+    /* Text Styles */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    /* Margins */
+    margin: 2px 0;
+    /* Borders */
+    border: solid 1px transparent;
+    border-radius: 4px;
+    outline: none;
+    /* Sizing */
+    padding: 1em 3em;
+    /* Colors */
+    color: #ffffff;
+    background-color: #F25D26;
+}
+
+.enter-btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+.enter-btn:hover {
+    color: #F25D26;
+    border-color: currentColor;
+    background-color: white;
+}
