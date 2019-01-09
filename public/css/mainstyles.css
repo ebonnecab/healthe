@@ -73,7 +73,7 @@ nav ul li {
     top: 0;
 }
 
-/* info hierarchy styles */
+/* class styles */
 
 .yellow {
     color: #ECC30B;
@@ -89,5 +89,21 @@ nav ul li {
 }
 
 .blue {
-    color: #067BC2;
+    color: #84BCDA;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.blue-fill {
+    background-color: #84BCDA;
+}
+
+.orange-fill {
+    background-color: #F37748;
+}
+
+.red-fill {
+    background-color: #D56062;
 }
