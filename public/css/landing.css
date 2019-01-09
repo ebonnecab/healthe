@@ -7,7 +7,7 @@ body {
 .hero {
     /* Sizing */
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     /* Flexbox */
     display: flex;
     justify-content: center;
@@ -16,9 +16,9 @@ body {
     text-align: center;
     color: #ffff;
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/eye-for-ebony-415494-unsplash.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/black-woman-child.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -36,12 +36,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     letter-spacing: 0.1em;
-}
-
-.bold {
-    color: #26C485;
-    font-weight: 500;
-    font-size: 17px;
 }
 
 /* CTA BUTTON */
