@@ -49,6 +49,10 @@ nav ul li {
     font-size: 23px;
 }
 
+nav ul li:hover {
+    color: #D64244;
+}
+
 /* Header Styles */
 
 .header {
