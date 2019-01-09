@@ -93,11 +93,22 @@ body {
 .statement {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
-.statement h1 {
+.statement h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #067BC2;
+}
 
+.statement p {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
