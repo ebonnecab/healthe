@@ -35,8 +35,12 @@ body {
 }
 
 .panel1{
-    width: 100%;
+    width: 50%;
     margin: 12px;
+}
+
+.panel2{
+
 }
 
 
