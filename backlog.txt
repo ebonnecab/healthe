@@ -1,2 +1,5 @@
--mobile responsive
--hamburger nav
+- mobile responsive
+- recipe api
+- custom markers
+- map legend
+- interactive markers

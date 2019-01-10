@@ -26,12 +26,22 @@ body {
 }
 
 .container {
+    margin: 0;
     height: 400px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
+.map1{
+    width: 50%;
+    margin: 12px;
+}
+
+
 
 #map {
     height: 100%;
-    width: 33%;
+    width: 100%;
 }
-

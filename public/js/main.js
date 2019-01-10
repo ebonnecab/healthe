@@ -4,6 +4,8 @@ function initMap() {
     // The map centered at the HOC
     var map = new google.maps.Map(
         document.getElementById('map'), {zoom: 12, center: sanFrancisco});
+    var map2 = new google.maps.Map(
+        document.getElementById('map2'), { zoom: 12, center: sanFrancisco });
 
     setMarkers(map);
 }
