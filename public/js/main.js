@@ -3,7 +3,7 @@ function initMap() {
     var heartOfCity = { lat: 37.779892, lng: -122.414314 };
     // The map centered at the HOC
     var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 10, center: heartOfCity});
+        document.getElementById('map'), {zoom: 11, center: heartOfCity});
 
     setMarkers(map);
 }
@@ -28,3 +28,24 @@ var farmersMarkets = [
   ["Inner Sunset Farmers Market", 37.763653, -122.46624, 1],
   ["Stonestown Farmers Market", 37.730125, -122.47915, 17]
 ];
+function setMarkers(map){
+    //adds markers to the map
+  
+    // Shapes define the clickable region of the icon. The type defines an HTML
+    // <area> element 'poly' which traces out a polygon as a series of X,Y points.
+    // The final coordinate closes the poly by connecting to the first coordinate.
+    var shape = {
+        coords: [1, 1, 1, 20, 18, 20, 18, 1],
+        type: 'poly'
+    };
+    for (var i=0; i < farmersMarkets.length; i++) {
+        var farmersMarket = farmersMarkets[i];
+        var marker = new google.maps.Marker({
+            position: {lat: farmersMarket[1], lng: farmersMarket[2]},
+            map: map,
+            shape: shape,
+            title: farmersMarket[0],
+            zIndex: farmersMarket[3]
+        });
+    }
+};
