@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./public/css/mainstyles.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./public/css/nutrition.css" />
-    <script src="main.js"></script>
+    <script src="./public/js/main.js"></script>
 </head>
 <body>
     <div class="h-logo">
@@ -28,19 +28,21 @@
             </div>
             <div class=hero-inner>
                 <h1>healthe eating</h1>
+                <p> Nutrition Tips for healthe Moms on any budget. </p>
             </div>
         </section>
     </div>
     <main>
-        <!-- <h3>Why is Eating Healthy Important?</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius magni dolorum, molestias, laborum dolor voluptate itaque necessitatibus ipsum quidem eveniet dignissimos autem eos porro laboriosam. Iusto incidunt veniam praesentium necessitatibus.</p>
-        <h3>Local Farmer's Markets & Food Pantries</h3>
-        <img src="./public/images/placeimg_640_480_grayscale_animals.jpg" />
-        <h3>Local Black Nutritionists</h3>
-        <img src="./public/images/placeimg_640_480_grayscale_animals.jpg" />
-        <a href="./fitness.html">
-            <button type="button">Get Fit</button>
-        </a> -->
+            <div class="container">
+                <h2>Local Farmer's Markets</h2>
+                <div id="map"></div>
+            </div>
     </main>
+    <!-- // Load the API
+    // * The async attribute allows the browser to render the page while the API loads
+    // * The callback parameter executes the initMap() function -->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwoIpASudJNSRzC2h2xoc0KfGfbEOSqEI&callback=initMap">
+    </script>
 </body>
 </html>
