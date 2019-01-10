@@ -34,16 +34,15 @@ body {
     justify-content: space-evenly;
 }
 
-.panel1{
+.panel1 {
     width: 50%;
     margin: 12px;
 }
 
-.panel2{
-
+.panel2 {
+    width: 50%;
+    margin: 12px;
 }
-
-
 
 #map {
     height: 100%;
