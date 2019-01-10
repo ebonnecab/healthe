@@ -23,6 +23,20 @@ body {
 .hero h1 {
     font-family: 'Lobster Two', sans-serif;
     font-size: 5em;
+    margin-bottom: 0.1em;
+}
+
+.hero p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+
+ul li {
+    list-style: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -32,6 +46,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.container h2 {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .panel1 {
