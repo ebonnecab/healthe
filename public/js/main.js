@@ -1,9 +1,9 @@
 function initMap() {
     //location of Heart of the City Farmer's Market
-    var heartOfCity = { lat: 37.779892, lng: -122.414314 };
+    var sanFrancisco = { lat: 37.7749, lng: -122.4194 };
     // The map centered at the HOC
     var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 11, center: heartOfCity});
+        document.getElementById('map'), {zoom: 12, center: sanFrancisco});
 
     setMarkers(map);
 }
