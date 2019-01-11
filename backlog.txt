@@ -3,4 +3,5 @@
 - custom markers
 - map legend
 - interactive markers
--enter button!
+- cta button
+- style list of recipes
