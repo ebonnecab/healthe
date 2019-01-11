@@ -23,6 +23,20 @@ body {
 .hero h1 {
     font-family: 'Lobster Two', sans-serif;
     font-size: 5em;
+    margin-bottom: 0.1em;
+}
+
+.hero p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+
+ul li {
+    list-style: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -33,18 +47,36 @@ body {
     justify-content: space-evenly;
 }
 
-.map1 {
-    width: 100%;
-    margin: 0;
+.container h2 {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.panel1 {
+    width: 50%;
+    margin: 12px;
+}
+
+.panel2 {
+    width: 50%;
+    margin: 12px;
 }
 
 #map {
     height: 100%;
-    width: 500px;
+    width: 100%;
 }
 
 #legend {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     background: #fff;
     padding: 10px;
     margin: 10px;

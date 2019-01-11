@@ -48,6 +48,7 @@ body {
 .text-block {
     width: 33%;
     margin: 10px;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
 }
 
 .text-block p {
