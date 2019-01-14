@@ -27,20 +27,21 @@ body {
     margin-bottom: 0.1em;
 }
 
+.hero p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
 .container {
     margin: 0;
-    height: 400px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.panel1 {
-    width: 50%;
-    margin: 12px;
-}
-
-#map2 {
-    height: 100%;
-    width: 100%;
+.container h2 {
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
 }
