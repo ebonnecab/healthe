@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two|Thasadith|Montserrat|Roboto');
 /* Global styles */
 
@@ -118,4 +117,8 @@ nav ul li:hover {
 
 .green-fill {
     background-color: #26C485;
+}
+
+.salmon {
+    color: #FF8E72;
 }

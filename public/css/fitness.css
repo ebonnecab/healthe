@@ -43,5 +43,25 @@ body {
 
 .container h2 {
     font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
     text-align: center;
+    margin: 0.3em;
+}
+
+.container p{
+    margin: 0.5em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.two-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.two-panel img{
+    height: 350px;
 }
