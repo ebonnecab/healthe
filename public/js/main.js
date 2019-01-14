@@ -1,15 +1,17 @@
 function initMap() {
-    //location of Heart of the City Farmer's Market
+    //latitude and longitude of SF
     const sanFrancisco = { lat: 37.7749, lng: -122.4194 };
-    // The map centered at the HOC
+    // The first map centered on SF
     const map = new google.maps.Map(
         document.getElementById('map'), {zoom: 12, center: sanFrancisco}); 
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push
         (document.getElementById('legend'));
     setMarkers(map);
+
 }
 // Data for the markers consisting of a name, a LatLng and a zIndex for the
 // order in which these markers should display on top of each other.
+//Marks all the local farmer's markets in SF
 let farmersMarkets = [
   ["Heart of City Market", 37.779892, -122.414314, 16],
   ["Ferry Plaza Farmers Market", 37.795074, -122.39335, 15],
@@ -50,3 +52,5 @@ function setMarkers(map){
         });
     }
 };
+
+

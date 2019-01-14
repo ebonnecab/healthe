@@ -26,3 +26,21 @@ body {
     font-size: 5em;
     margin-bottom: 0.1em;
 }
+
+.container {
+    margin: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.panel1 {
+    width: 50%;
+    margin: 12px;
+}
+
+#map2 {
+    height: 100%;
+    width: 100%;
+}
