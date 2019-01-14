@@ -30,6 +30,7 @@ body {
 .hero p {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
     font-size: 1em;
 }
 
@@ -43,17 +44,11 @@ body {
 
 .container h2 {
     font-family: 'Thasadith', sans-serif;
+    letter-spacing: 0.1em;
     font-weight: bold;
     font-size: 1.7em;
     text-align: center;
     margin: 0.3em;
-}
-
-.container p{
-    margin: 0.5em;
-    font-size: 1em;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
 }
 
 .two-panel{

@@ -32,3 +32,35 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container h2 {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.section1 {
+    border-radius: 4px;
+    width: 33%;
+}
+
+.section1 h2 {
+    padding: 12px;
+    font-size: 4em;
+    color: #84BCDA;
+    margin-bottom: 0;
+}
+
+.section1 p {
+    margin-top: 0.1em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
