@@ -122,3 +122,7 @@ nav ul li:hover {
 .salmon {
     color: #FF8E72;
 }
+
+.salmon-fill {
+    background-color: #FF8E72;
+}
