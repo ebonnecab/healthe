@@ -60,3 +60,9 @@ body {
     font-size: 1em;
     line-height: 2em;
 }
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
