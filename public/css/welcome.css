@@ -44,23 +44,36 @@ body {
     font-family: 'Thasadith', sans-serif;
     font-size: 2em;
     text-align: center;
+    letter-spacing: 0.1em;
+    padding: 12px;
+    margin-bottom: 0;
+}
+
+.container p {
+    margin-top: 0.1em;
+    margin: 12px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 .section1 {
-    border-radius: 4px;
+    width: 33%;
+}
+
+.section2 {
+    width: 33%;
+}
+
+.section3 {
     width: 33%;
 }
 
 .section1 h2 {
-    padding: 12px;
-    font-size: 4em;
     color: #84BCDA;
-    margin-bottom: 0;
 }
 
-.section1 p {
-    margin-top: 0.1em;
-    text-align: left;
+.section3 ul li {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
 }
