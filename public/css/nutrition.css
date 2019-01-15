@@ -63,6 +63,7 @@ ul li {
 .panel1 {
     width: 50%;
     margin: 12px;
+    margin-bottom: 5em;
 }
 
 .panel2 {
@@ -76,9 +77,14 @@ ul li {
 }
 
 #legend {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #fff;
     padding: 10px;
     margin: 10px;
     border: 3px solid #000;
+}
+
+.move-down {
+    margin-top: 4em;
+    margin-bottom: 1em;
 }

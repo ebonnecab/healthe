@@ -7,3 +7,4 @@
 - style list of recipes
 - use youtube api for workout playlist
 - footer
+- use json data to provide more info on locations

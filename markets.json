@@ -1,0 +1,276 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.779892,
+        -122.414314
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Wednesday: 7am-530pm, Sunday: 7am-5pm", 
+        "name": "Heart of City Market", 
+        "phone": "415-558-9455"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+         37.795074,
+        -122.39335
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Tuesday: 10am-2pm, Thursday: 10am-2pm, Saturday: 8am-2pm", 
+        "name": "Ferry Plaza Farmer's Market", 
+        "phone": "415-291-3276"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.78945,
+        -122.402885
+        ]
+      },
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Thursday: 10am-2pm", 
+        "name": "SF Farmer's Market at Crocker Galleria", 
+        "phone": "925-465-4690"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.805336,
+        -122.43019
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Sunday: 930am-130pm", 
+        "name": "Fort Mason Center Farmer's Market", 
+        "phone": "925-465-4690"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.783314,
+        -122.432694
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Saturday: 9am-1pm", 
+        "name": "Fillmore Farmer's Market", 
+        "phone": "925-825-9090"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+         37.75541,
+        -122.43286
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Wednesday: 10am-2pm", 
+        "name": "Mission Bay Farmer's Market at UCSF",
+        "phone": "925-825-9090"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.775936,
+        -122.43837
+        ]
+      },
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Sunday: 10am-2pm", 
+        "name": "Divisadero Farmers Market", 
+        "phone": "925-825-9090"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.80094,
+        -122.41147
+        ]
+      },
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "9am-1pm", 
+        "name": "North Beach Farmers Market", 
+        "phone": "614-975-1169"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.783092,
+        -122.461
+        ]
+      },
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Sunday: 9am-2pm", 
+        "name": "Clement St. Farmers Market", 
+        "phone": "415-472-6100"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.751514,
+        -122.42898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Saturday: 8am-1pm", 
+        "name": "Noe Valley Farmers Market", 
+        "phone": "415-248-1332"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.73604,
+        -122.410225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Saturday: 6am-3pm", 
+        "name": "Alemany Farmers Market", 
+        "phone": "415-647-9423"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.764526,
+        -122.43313
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Wednesday: 4pm-8pm", 
+        "name": "Castro Farmers Market", 
+        "phone": "800-949-3276"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          37.75541,
+        -122.41976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "category": "farmers market", 
+        "hours": "Thursday: 4-8pm", 
+        "name": "Mission Community Market", 
+        "phone": "415-291-3276"
+      }
+    },
+    {
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.805336,
+                -122.43019
+            ]
+        },
+        "type": "Feature",
+        "properties": {
+            "category": "farmers market",
+            "hours": "Sunday: 930am-130pm",
+            "name": "Fort Mason Center for Arts & Cultures Farmers Market",
+            "phone": "925-465-4690"
+        }
+    },
+    {
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.780991,
+                -122.46193
+            ]
+        },
+        "type": "Feature",
+        "properties": {
+            "category": "farmers market",
+            "hours": "Sunday: 8am-7pm, Monday-Saturday: 8am - 7:30pm",
+            "name": "4th Ave and Geary Farmers Market"
+        }
+    },
+    {
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.763653,
+                -122.46624
+            ]
+        },
+        "type": "Feature",
+        "properties": {
+            "category": "farmers market",
+            "hours": "Monday-Friday: 8am-5pm, Saturday-Sunday: 8am-6pm",
+            "name": "Inner Sunset Farmers Market",
+            "phone": "925-825-9090"
+        }
+    },
+    {
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.730125,
+                -122.47915
+            ]
+        },
+        "type": "Feature",
+        "properties": {
+            "category": "farmers market",
+            "hours": "Sunday: 9am-1pm",
+            "name": "Stonestown Farmers Market",
+            "phone": "415-472-6100"
+        }
+    }
+  ]
+}
