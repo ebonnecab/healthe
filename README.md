@@ -1,2 +1,2 @@
 # healthe
-a wellness tool for black mothers to create healthier lifestyles for their family.
+![screenshot](https://media.giphy.com/media/35yJs7o6SccrGj87Qm/giphy.gif)
