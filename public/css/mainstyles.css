@@ -148,3 +148,8 @@ nav ul li:hover {
     background-image: linear-gradient(90deg, #84BCDA 0%, #ECC30B 49%, #D56062 80%, #84BCDA 100%);
     animation: slidebg 0.2s linear infinite;
 }
+
+.move-down {
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
