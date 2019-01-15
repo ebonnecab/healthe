@@ -59,6 +59,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     line-height: 2em;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.75);
 }
 
 img.displayed {
