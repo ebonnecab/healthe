@@ -84,7 +84,7 @@ img.displayed {
     box-shadow: 4px 3px 15px -1px rgba(0, 0, 0, 0.75);
 }
 
-.rainbow-1:hover{
-   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-   animation:slidebg 0.2s linear infinite;
+.rainbow-1:hover {
+    background-image: linear-gradient(90deg, #84BCDA 0%, #ECC30B 49%, #D56062 80%, #84BCDA 100%);
+    animation: slidebg 0.2s linear infinite;
 }
