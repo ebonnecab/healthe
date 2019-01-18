@@ -5,9 +5,9 @@
 Healthe is a wellness tool to make nutrition and fitness tips more accessible to Black mothers. Healthe connects Moms to local farmer's markets for fresh and affordable produce and supports Black wellness experts by linking our Moms to external resources.
 
 ## Key Features
-* external resources that link to black wellness experts
-* use of Google Maps API to map out local farmer's markets
-* colorful and clean UI design
+* External resources that link to black wellness experts
+* Use of Google Maps API to map out local farmer's markets
+* Colorful and clean UI design
 ## Technologies Used
 * HTML/CSS 
 * Javascript
