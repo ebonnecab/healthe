@@ -17,5 +17,6 @@ Healthe is a wellness tool to make nutrition and fitness tips more accessible to
 * Use Edamam API to load healthy recipes to web application
 * Use JSON data to provide information for each Marker on google maps
 * Make available for more cities
+* Make website mobile responsive
 
 ## Credits
